@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TrainingDemo</string>
+    <string name="button_send">跳转</string>
+</resources>
