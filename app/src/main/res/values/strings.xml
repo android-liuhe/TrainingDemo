@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TrainingDemo</string>
     <string name="button_send">跳转</string>
+    <string name="hello_world">Hello World</string>
+    <string name="first_lesson">第一节课</string>
+    <string name="second_lesson">第二节课</string>
 </resources>
