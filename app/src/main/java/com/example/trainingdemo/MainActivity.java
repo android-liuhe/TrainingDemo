@@ -8,10 +8,11 @@ import android.widget.Button;
 
 import com.firstlesson.FirstLesson;
 import com.secondlesson.SecondLesson;
+import com.thirdlesson.ThirdLesson;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button first_btn, second_btn;
+    private Button first_btn, second_btn, third_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +25,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initView() {
         first_btn = (Button) findViewById(R.id.first_lesson);
         second_btn = (Button) findViewById(R.id.second_lesson);
+        third_btn = (Button) findViewById(R.id.third_lesson);
         first_btn.setOnClickListener(this);
         second_btn.setOnClickListener(this);
+        third_btn.setOnClickListener(this);
     }
 
     @Override
@@ -38,6 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.second_lesson:
                 Intent intent2 = new Intent(this, SecondLesson.class);
                 startActivity(intent2);
+                break;
+            case R.id.third_lesson:
+                Intent intent3 = new Intent(this, ThirdLesson.class);
+                startActivity(intent3);
                 break;
         }
     }

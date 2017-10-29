@@ -19,5 +19,11 @@
         android:layout_height="wrap_content"
         android:text="@string/second_lesson"/>
 
+    <Button
+        android:id="@+id/third_lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/third_lesson"/>
+
 
 </LinearLayout>

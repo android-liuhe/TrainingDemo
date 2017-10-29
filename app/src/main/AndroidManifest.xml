@@ -19,6 +19,8 @@
         <activity android:name="com.firstlesson.FirstLesson"/>
         <activity android:name="com.firstlesson.DisplayMessageActivity"/>
         <activity android:name="com.secondlesson.SecondLesson"/>
+        <activity android:name="com.thirdlesson.ThirdLesson"
+            android:configChanges="orientation|screenSize"/>
     </application>
 
 </manifest>
